@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: openwrt/openwrt
+          repository: friendlyarm/friendlywrt
           ref: v${{ matrix.build_env.tag }}
           fetch-depth: 0
 
